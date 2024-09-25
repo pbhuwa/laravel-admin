@@ -5,5 +5,5 @@ import $ from "jquery";
 window.$ = window.jQuery = $;
 
 // tailwind css components library
-import { Tooltip, initTWE } from "tw-elements";
-initTWE({ Tooltip });
+import { Tooltip, Ripple, Tab, Input, initTWE } from "tw-elements";
+initTWE({ Tooltip, Ripple, Tab, Input });
