@@ -1,9 +1,7 @@
 import "./bootstrap";
 
-// jquery plugins
-import $ from "jquery";
-window.$ = window.jQuery = $;
-
-// tailwind css components library
+// Import tailwind css components from tw-elements
 import { Tooltip, Ripple, Tab, Input, initTWE } from "tw-elements";
+
+// Initialize all components
 initTWE({ Tooltip, Ripple, Tab, Input });
