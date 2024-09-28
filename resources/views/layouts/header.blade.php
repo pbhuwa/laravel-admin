@@ -280,12 +280,6 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#"
-                        class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">
-                        <i class="fa-solid fa-gear"></i>&nbsp;Settings
-                    </a>
-                </li>
-                <li>
                     <a href="#" onclick="document.getElementById('logout-form').submit();"
                         class="flex items-center text-[13px] py-1.5 px-4 text-gray-600 hover:text-blue-500 hover:bg-gray-50">
                         <i class="fa-solid fa-right-from-bracket"></i>&nbsp;Logout
