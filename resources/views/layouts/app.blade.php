@@ -16,6 +16,8 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
+        <link rel="stylesheet" href="{{ asset('assets/plugins/css/toaster.css') }}">
+
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/css/style.css', 'resources/js/app.js', 'resources/js/script.js'])
 
@@ -42,7 +44,52 @@
 
         <script src="https://unpkg.com/@popperjs/core@2"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="{{ asset('assets/plugins/js/jquery-3.7.1.js') }}"></script>
+        <script src="{{ asset('assets/plugins/js/toaster.js') }}"></script>
 
+        <script type="text/javascript">
+            @if (Session::has('message'))
+                var type = "{{ Session::get('alert-type', 'info') }}"
+                toastr.options = {
+                    "closeButton": true,
+                    "debug": false,
+                    "newestOnTop": false,
+                    "progressBar": true,
+                    "positionClass": "toast-top-right",
+                    "preventDuplicates": false,
+                    "onclick": null,
+                    "showDuration": "200",
+                    "hideDuration": "1000",
+                    "timeOut": "5000",
+                    "extendedTimeOut": "1000",
+                    "showEasing": "swing",
+                    "hideEasing": "linear",
+                    "showMethod": "fadeIn",
+                    "hideMethod": "fadeOut"
+                }
+                switch (type) {
+                    case 'info':
+                        toastr.info("{{ Session::get('message') }}", "Info!");
+                        break;
+
+                    case 'success':
+                        toastr.options.timeOut = 10000;
+                        toastr.success("{{ Session::get('message') }}", "Success!");
+
+                        break;
+                    case 'warning':
+                        toastr.options.timeOut = 10000;
+                        toastr.warning("{{ Session::get('message') }}", "Warning!");
+
+                        break;
+                    case 'error':
+                        toastr.options.timeOut = 10000;
+                        toastr.error("{{ Session::get('message') }}", "Error!");
+
+                        break;
+                }
+            @endif
+        </script>
         @stack('custom-scripts')
     </body>
 
