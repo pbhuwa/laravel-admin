@@ -34,15 +34,15 @@
     <div class="mt-0 mr-4 mb-4 ml-4">
         <div
             class="block w-full rounded-sm bg-gray-100 text-center text-surface shadow-sm dark:bg-surface-dark dark:text-white border border-neutral-200">
-            <div class="border-b border-neutral-200 px-3 dark:border-gray-200">
+            <div class="px-2 nav nav-tabs">
                 <!--Tabs navigation-->
-                <ul class="-mb-2 flex list-none flex-row flex-wrap border-b-0 ps-0" role="tablist" data-twe-nav-ref>
+                <ul class="flex list-none flex-row flex-wrap ps-0 mt-2" role="tablist" data-twe-nav-ref>
                     <li role="presentation">
                         <a href="#user-profile-tab"
-                            class="my-2 block px-2 pb-2.5 pt-3 text-xs font-medium leading-tight text-gray-500 hover:isolate hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
+                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
                             data-twe-toggle="pill" data-twe-target="#user-profile-tab" data-twe-nav-active
                             role="tab" aria-controls="user-profile-tab" aria-selected="true">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mx-1 sm:w-6 sm:h-6" fill="none"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 sm:h-6" fill="none"
                                 viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
@@ -53,13 +53,13 @@
 
                     <li role="presentation">
                         <a href="#tabs-profile"
-                            class="my-2 block px-2 pb-2.5 pt-3 text-xs font-medium leading-tight text-gray-500 hover:isolate hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
+                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
                             data-twe-toggle="pill" data-twe-target="#tabs-profile" role="tab"
                             aria-controls="tabs-profile" aria-selected="false">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round"
-                                class="icon icon-tabler icons-tabler-outline icon-tabler-face-id w-4 h-4 mx-1 sm:w-6 sm:h-6">
+                                class="icon icon-tabler icons-tabler-outline icon-tabler-face-id w-4 h-4 mr-1 sm:h-6">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                                 <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
                                 <path d="M4 16v2a2 2 0 0 0 2 2h2" />
@@ -74,18 +74,13 @@
                     </li>
                     <li role="presentation">
                         <a href="#tabs-messages"
-                            class="my-2 block px-2 pb-2.5 pt-3 text-xs font-medium leading-tight text-gray-500 hover:isolate hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
+                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
                             data-twe-toggle="pill" data-twe-target="#tabs-messages" role="tab"
                             aria-controls="tabs-messages" aria-selected="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round"
-                                class="icon icon-tabler icons-tabler-outline icon-tabler-lock w-4 h-4 sm:w-6 sm:h-6">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path
-                                    d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z" />
-                                <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
-                                <path d="M8 11v-4a4 4 0 1 1 8 0v4" />
+                            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"
+                                class="w-4 h-4 mr-1 sm:h-6">
+                                <path fill="currentColor"
+                                    d="M17.615 17.615q.625 0 1.063-.437t.437-1.063t-.437-1.062t-1.063-.438t-1.062.438t-.438 1.062t.438 1.063t1.062.437m0 3q.75 0 1.4-.35t1.075-.975q-.575-.35-1.2-.512t-1.275-.163t-1.275.163t-1.2.512q.425.625 1.075.975t1.4.35M9 9h6V7q0-1.25-.875-2.125T12 4t-2.125.875T9 7zM6.615 21q-.666 0-1.14-.475Q5 20.051 5 19.385v-8.77q0-.666.475-1.14Q5.949 9 6.615 9H8V7q0-1.671 1.164-2.836T12 3t2.836 1.164T16 7v2h1.385q.666 0 1.14.475q.475.474.475 1.14v.285q0 .341-.27.562t-.624.184q-.117-.006-.248-.009q-.13-.002-.262-.002q-2.483 0-4.232 1.749t-1.749 4.231q0 .628.124 1.245t.38 1.19q.143.329-.028.64t-.518.31zm11 .615q-1.67 0-2.835-1.164t-1.165-2.836t1.165-2.835t2.835-1.165t2.836 1.165t1.164 2.835t-1.164 2.836q-1.164 1.164-2.836 1.164" />
                             </svg>
                             <span>Change Password</span>
                         </a>
@@ -96,27 +91,99 @@
             <div class="p-6 bg-white dark:bg-surface-dark">
                 <div class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[twe-tab-active]:block"
                     id="user-profile-tab" role="tabpanel" aria-labelledby="user-profile-tab-tab" data-twe-tab-active>
-                    <div class="relative mb-3" data-twe-input-wrapper-init>
-                        <input type="text"
-                            class="peer block min-h-[auto] w-full rounded border-0 bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
-                            id="exampleFormControlInput1" placeholder="Example label" />
-                        <label for="exampleFormControlInput1"
-                            class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary">Example
-                            label
-                        </label>
-                    </div>
+                    <form method="post" action="{{ route('profile.update') }}">
+                        @csrf
+                        @method('patch')
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="relative mb-6">
+                                <!-- Name -->
+                                <x-input-label for="name" :value="__('Name')" />
+                                <x-text-input id="name" class="block mt-1 w-full" type="text" name="name"
+                                    :value="old('name', $user->name)" required autofocus autocomplete="name" />
+                                <x-input-error :messages="$errors->get('name')" class="mt-2" />
+                            </div>
+                            <div class="relative mb-6">
+                                <!-- Username -->
+                                <x-input-label for="username" :value="__('Username')" />
+                                <x-text-input id="username" class="block mt-1 w-full" type="text"
+                                    name="username" :value="old('username', $user->username)" required autofocus autocomplete="username" />
+                                <x-input-error :messages="$errors->get('username')" class="mt-2" />
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="relative mb-6">
+                                <!-- Email Address -->
+                                <x-input-label for="email" :value="__('Email')" />
+                                <x-text-input id="email" class="block mt-1 w-full" type="email" name="email"
+                                    :value="old('email', $user->email)" required autofocus autocomplete="email" />
+                                <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                            </div>
+                            <div class="relative mb-6">
+                                <!-- Address -->
+                                <x-input-label for="address" :value="__('Address')" />
+                                <x-text-input id="address" class="block mt-1 w-full" type="text" name="address"
+                                    :value="old('address', $user->address)" required autofocus autocomplete="address" />
+                                <x-input-error :messages="$errors->get('address')" class="mt-2" />
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="flex items-center justify-end mt-4">
+                            <x-primary-button class="ms-3">
+                                {{ __('Update') }}
+                            </x-primary-button>
+                        </div>
+                    </form>
                 </div>
                 <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[twe-tab-active]:block"
                     id="tabs-profile" role="tabpanel" aria-labelledby="tabs-profile-tab">
-                    Tab 2 content
+                    <img src="https://tecdn.b-cdn.net/img/new/avatars/1.webp" class="w-32 rounded-full shadow-lg"
+                        alt="Avatar" />
                 </div>
                 <div class="hidden opacity-0 transition-opacity duration-150 ease-linear data-[twe-tab-active]:block"
                     id="tabs-messages" role="tabpanel" aria-labelledby="tabs-profile-tab">
-                    Tab 3 content
+                    <form method="post" action="{{ route('password.update') }}">
+                        @csrf
+                        @method('put')
+                        <div class="grid grid-cols-1 gap-4">
+                            <div class="relative mb-6">
+                                <!-- Current Password -->
+                                <x-input-label for="current_password" :value="__('Current Password')" />
+                                <x-text-input id="current_password" class="block mt-1 w-full" type="password"
+                                    name="current_password" :value="old('current_password')" required autofocus
+                                    autocomplete="username" />
+                                <x-input-error :messages="$errors->get('current_password')" class="mt-2" />
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="relative mb-6">
+                                <!-- New Password -->
+                                <x-input-label for="new_password" :value="__('New Password')" />
+                                <x-text-input id="new_password" class="block mt-1 w-full" type="password"
+                                    name="new_password" :value="old('new_password')" required autofocus
+                                    autocomplete="new_password" />
+                                <x-input-error :messages="$errors->get('new_password')" class="mt-2" />
+                            </div>
+                            <div class="relative mb-6">
+                                <!-- Confirm New Password -->
+                                <x-input-label for="confirm_password" :value="__('Confirm New Password')" />
+                                <x-text-input id="confirm_password" class="block mt-1 w-full" type="password"
+                                    name="confirm_password" :value="old('confirm_password')" required autofocus
+                                    autocomplete="username" />
+                                <x-input-error :messages="$errors->get('confirm_password')" class="mt-2" />
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="flex items-center justify-end mt-4">
+                            <x-primary-button class="ms-3">
+                                {{ __('Update') }}
+                            </x-primary-button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+
     @push('custom-scripts')
         <script type="module">
             $(function() {
