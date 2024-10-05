@@ -1,4 +1,94 @@
 <x-app-layout>
+    {{-- <style>
+        .crumbs {
+            text-align: left;
+        }
+
+        .crumbs ul {
+            list-style: none;
+            display: inline-table;
+        }
+
+        .crumbs ul li {
+            display: inline;
+        }
+
+        .crumbs ul li a {
+            display: block;
+            float: left;
+            height: 50px;
+            background: #f3f5fa;
+            text-align: center;
+            padding: 30px 20px 0 60px;
+            position: relative;
+            margin: 0 10px 0 0;
+            font-size: 20px;
+            text-decoration: none;
+            color: #8093A7;
+        }
+
+        .crumbs ul li a:after {
+            content: "";
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-left: 40px solid #f3f5fa;
+            position: absolute;
+            right: -40px;
+            top: 0;
+            z-index: 1;
+        }
+
+        .crumbs ul li a:before {
+            content: "";
+            border-top: 40px solid transparent;
+            border-bottom: 40px solid transparent;
+            border-left: 40px solid #fff;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .crumbs ul li:first-child a {
+            padding-left: 40px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .crumbs ul li:first-child a:before {
+            display: none;
+        }
+
+        .crumbs ul li:last-child a {
+            padding-right: 40px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .crumbs ul li:last-child a:after {
+            display: none;
+        }
+
+        .crumbs ul li a:hover {
+            background: #932e3e;
+            color: #fff;
+        }
+
+        .crumbs ul li a:hover:after {
+            border-left-color: #932e3e;
+            color: #fff;
+        }
+    </style>
+    <nav class="flex px-5 py-3 text-gray-700 bg-gray-50" aria-label="Breadcrumb">
+        <div class="crumbs">
+            <ul>
+                <li><a href="#"><i class="fa fa-home"></i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> Shop</a></li>
+                <li><a href="#"><i class="fa fa-cart-plus"></i> Cart</a></li>
+                <li><a href="#"><i class="fa fa-credit-card"></i> Checkout</a></li>
+            </ul>
+        </div>
+    </nav> --}}
+
     <nav class="flex px-5 py-3 text-gray-700 bg-gray-50" aria-label="Breadcrumb">
         <ol class="inline-flex items-center uppercase space-x-2">
             <li>
@@ -31,15 +121,16 @@
             <li aria-current="page" class="text-xs font-small text-blue-600">Bhuwan</li>
         </ol>
     </nav>
+
     <div class="mt-0 mr-4 mb-4 ml-4">
         <div
             class="block w-full rounded-sm bg-gray-100 text-center text-surface shadow-sm dark:bg-surface-dark dark:text-white border border-neutral-200">
-            <div class="px-2 nav nav-tabs">
+            <div class="px-2 nav nav-tabs border border-b-neutral-200">
                 <!--Tabs navigation-->
                 <ul class="flex list-none flex-row flex-wrap ps-0 mt-2" role="tablist" data-twe-nav-ref>
                     <li role="presentation">
                         <a href="#user-profile-tab"
-                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
+                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:text-green-500 hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:-mb-1 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
                             data-twe-toggle="pill" data-twe-target="#user-profile-tab" data-twe-nav-active
                             role="tab" aria-controls="user-profile-tab" aria-selected="true">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 sm:h-6" fill="none"
@@ -53,7 +144,7 @@
 
                     <li role="presentation">
                         <a href="#tabs-profile"
-                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
+                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:text-green-500 hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:-mb-1 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
                             data-twe-toggle="pill" data-twe-target="#tabs-profile" role="tab"
                             aria-controls="tabs-profile" aria-selected="false">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -74,7 +165,7 @@
                     </li>
                     <li role="presentation">
                         <a href="#tabs-messages"
-                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
+                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:text-green-500 hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:-mb-1 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
                             data-twe-toggle="pill" data-twe-target="#tabs-messages" role="tab"
                             aria-controls="tabs-messages" aria-selected="false">
                             <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"
@@ -88,7 +179,7 @@
                 </ul>
             </div>
 
-            <div class="p-6 bg-white dark:bg-surface-dark">
+            <div class="p-4 bg-white dark:bg-surface-dark">
                 <div class="hidden opacity-100 transition-opacity duration-150 ease-linear data-[twe-tab-active]:block"
                     id="user-profile-tab" role="tabpanel" aria-labelledby="user-profile-tab-tab" data-twe-tab-active>
                     <form method="post" action="{{ route('profile.update') }}">
@@ -183,7 +274,6 @@
             </div>
         </div>
     </div>
-
     @push('custom-scripts')
         <script type="module">
             $(function() {
