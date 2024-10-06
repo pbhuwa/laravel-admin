@@ -130,7 +130,7 @@
                 <ul class="flex list-none flex-row flex-wrap ps-0 mt-2" role="tablist" data-twe-nav-ref>
                     <li role="presentation">
                         <a href="#user-profile-tab"
-                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:text-green-500 hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:-mb-1 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
+                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:text-primary-500 hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:-mb-1 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
                             data-twe-toggle="pill" data-twe-target="#user-profile-tab" data-twe-nav-active
                             role="tab" aria-controls="user-profile-tab" aria-selected="true">
                             <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 sm:h-6" fill="none"
@@ -144,7 +144,7 @@
 
                     <li role="presentation">
                         <a href="#tabs-profile"
-                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:text-green-500 hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:-mb-1 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
+                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:text-primary-500 hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:-mb-1 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
                             data-twe-toggle="pill" data-twe-target="#tabs-profile" role="tab"
                             aria-controls="tabs-profile" aria-selected="false">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -165,7 +165,7 @@
                     </li>
                     <li role="presentation">
                         <a href="#tabs-messages"
-                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:text-green-500 hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:-mb-1 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
+                            class="block px-2 py-1 text-sm font-small leading-tight text-gray-500 hover:isolate hover:text-primary-500 hover:border-neutral-400 hover:bg-neutral-100 focus:outline-none data-[twe-nav-active]:bg-white data-[twe-nav-active]:border-black data-[twe-nav-active]:border-l data-[twe-nav-active]:border-r data-[twe-nav-active]:border-t data-[twe-nav-active]:border-b-0 data-[twe-nav-active]:border-neutral-200 data-[twe-nav-active]:-mb-1 data-[twe-nav-active]:rounded-tl data-[twe-nav-active]:rounded-tr data-[twe-nav-active]:text-black dark:text-gray-400 dark:hover:bg-neutral-700/60 dark:data-[twe-nav-active]:bg-surface-dark dark:data-[twe-nav-active]:border-black flex items-center justify-center"
                             data-twe-toggle="pill" data-twe-target="#tabs-messages" role="tab"
                             aria-controls="tabs-messages" aria-selected="false">
                             <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 24 24"
@@ -186,40 +186,45 @@
                         @csrf
                         @method('patch')
                         <div class="grid grid-cols-2 gap-4">
-                            <div class="relative mb-6">
+                            <div class="relative mb-6" data-twe-input-wrapper-init>
                                 <!-- Name -->
-                                <x-input-label for="name" :value="__('Name')" />
-                                <x-text-input id="name" class="block mt-1 w-full" type="text" name="name"
-                                    :value="old('name', $user->name)" required autofocus autocomplete="name" />
+                                <x-label-text-input id="name" name="name" placeholder="Name"
+                                    value="{{ old('name', $user->name) }}" required autofocus autocomplete="name">
+                                    {{ __('Name') }}
+                                </x-label-text-input>
                                 <x-input-error :messages="$errors->get('name')" class="mt-2" />
                             </div>
-                            <div class="relative mb-6">
-                                <!-- Username -->
-                                <x-input-label for="username" :value="__('Username')" />
-                                <x-text-input id="username" class="block mt-1 w-full" type="text"
-                                    name="username" :value="old('username', $user->username)" required autofocus autocomplete="username" />
+                            <div class="relative mb-6" data-twe-input-wrapper-init>
+                                <x-label-text-input id="username" name="username" placeholder="Username"
+                                    value="{{ old('username', $user->username) }}" required autofocus
+                                    autocomplete="username">
+                                    {{ __('Username') }}
+                                </x-label-text-input>
                                 <x-input-error :messages="$errors->get('username')" class="mt-2" />
                             </div>
                         </div>
                         <div class="grid grid-cols-2 gap-4">
-                            <div class="relative mb-6">
+                            <div class="relative mb-6" data-twe-input-wrapper-init>
                                 <!-- Email Address -->
-                                <x-input-label for="email" :value="__('Email')" />
-                                <x-text-input id="email" class="block mt-1 w-full" type="email" name="email"
-                                    :value="old('email', $user->email)" required autofocus autocomplete="email" />
+                                <x-label-text-input id="email" name="email" placeholder="Email"
+                                    value="{{ old('email', $user->email) }}" required autofocus autocomplete="email">
+                                    {{ __('Email') }}
+                                </x-label-text-input>
                                 <x-input-error :messages="$errors->get('email')" class="mt-2" />
                             </div>
-                            <div class="relative mb-6">
+                            <div class="relative mb-6" data-twe-input-wrapper-init>
                                 <!-- Address -->
-                                <x-input-label for="address" :value="__('Address')" />
-                                <x-text-input id="address" class="block mt-1 w-full" type="text" name="address"
-                                    :value="old('address', $user->address)" required autofocus autocomplete="address" />
+                                <x-label-text-input id="address" name="address" placeholder="Address"
+                                    value="{{ old('address', $user->address) }}" required autofocus
+                                    autocomplete="address">
+                                    {{ __('Address') }}
+                                </x-label-text-input>
                                 <x-input-error :messages="$errors->get('address')" class="mt-2" />
                             </div>
                         </div>
                         <hr>
                         <div class="flex items-center justify-end mt-4">
-                            <x-primary-button class="ms-3">
+                            <x-primary-button>
                                 {{ __('Update') }}
                             </x-primary-button>
                         </div>
@@ -236,30 +241,31 @@
                         @csrf
                         @method('put')
                         <div class="grid grid-cols-1 gap-4">
-                            <div class="relative mb-6">
+                            <div class="relative mb-6" data-twe-input-wrapper-init>
                                 <!-- Current Password -->
-                                <x-input-label for="current_password" :value="__('Current Password')" />
-                                <x-text-input id="current_password" class="block mt-1 w-full" type="password"
-                                    name="current_password" :value="old('current_password')" required autofocus
-                                    autocomplete="username" />
+                                <x-label-text-input id="current_password" name="current_password"
+                                    placeholder="Current Password" :value="old('current_password')" required autofocus
+                                    autocomplete="current_password">
+                                    {{ __('Current Password') }}
+                                </x-label-text-input>
                                 <x-input-error :messages="$errors->get('current_password')" class="mt-2" />
                             </div>
                         </div>
                         <div class="grid grid-cols-2 gap-4">
-                            <div class="relative mb-6">
+                            <div class="relative mb-6" data-twe-input-wrapper-init>
                                 <!-- New Password -->
-                                <x-input-label for="new_password" :value="__('New Password')" />
-                                <x-text-input id="new_password" class="block mt-1 w-full" type="password"
-                                    name="new_password" :value="old('new_password')" required autofocus
-                                    autocomplete="new_password" />
+                                <x-label-text-input id="new_password" type="password" name="new_password"
+                                    :value="old('new_password')" required autofocus autocomplete="new_password">
+                                    {{ __('New Password') }}
+                                </x-label-text-input>
                                 <x-input-error :messages="$errors->get('new_password')" class="mt-2" />
                             </div>
-                            <div class="relative mb-6">
+                            <div class="relative mb-6" data-twe-input-wrapper-init>
                                 <!-- Confirm New Password -->
-                                <x-input-label for="confirm_password" :value="__('Confirm New Password')" />
-                                <x-text-input id="confirm_password" class="block mt-1 w-full" type="password"
-                                    name="confirm_password" :value="old('confirm_password')" required autofocus
-                                    autocomplete="username" />
+                                <x-label-text-input id="confirm_password" type="password" name="confirm_password"
+                                    :value="old('confirm_password')" required autofocus autocomplete="username">
+                                    {{ __('Confirm Password') }}
+                                </x-label-text-input>
                                 <x-input-error :messages="$errors->get('confirm_password')" class="mt-2" />
                             </div>
                         </div>
