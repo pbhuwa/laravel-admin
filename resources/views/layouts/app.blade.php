@@ -16,11 +16,38 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
+        <!-- CSS for Toasts -->
         <link rel="stylesheet" href="{{ asset('assets/plugins/css/toaster.css') }}">
 
-        <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/css/style.css', 'resources/js/app.js', 'resources/js/script.js'])
+        <!-- CSS for Google Fonts -->
+        <link rel="stylesheet" href="{{ asset('assets/fonts/font.min.css') }}" />
 
+        <!-- CSS for TW Elements -->
+        <link rel="stylesheet" href="{{ asset('assets/plugins/css/tw-elements.min.css') }}" />
+
+        <!-- Tailwind Script -->
+        <script type="text/javascript" src="{{ asset('assets/plugins/js/tailwind.min.js') }}"></script>
+        <script>
+            tailwind.config = {
+                darkMode: "class",
+                theme: {
+                    fontFamily: {
+                        sans: ["Roboto", "sans-serif"],
+                        body: ["Roboto", "sans-serif"],
+                        mono: ["ui-monospace", "monospace"],
+                    },
+                },
+                corePlugins: {
+                    preflight: false,
+                },
+            };
+        </script>
+
+        <!-- Scripts -->
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
 
     <body class="text-gray-800 font-inter">
@@ -46,6 +73,10 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="{{ asset('assets/plugins/js/jquery-3.7.1.js') }}"></script>
         <script src="{{ asset('assets/plugins/js/toaster.js') }}"></script>
+        <script src="{{ asset('assets/js/script.js') }}"></script>
+
+        <!-- JS for TW Elements -->
+        <script type="text/javascript" src="{{ asset('assets/plugins/js/tw-elements.umd.min.js') }}"></script>
 
         <script type="text/javascript">
             @if (Session::has('message'))
@@ -60,7 +91,7 @@
                     "onclick": null,
                     "showDuration": "200",
                     "hideDuration": "1000",
-                    "timeOut": "5000",
+                    "timeOut": "1000",
                     "extendedTimeOut": "1000",
                     "showEasing": "swing",
                     "hideEasing": "linear",
@@ -73,17 +104,17 @@
                         break;
 
                     case 'success':
-                        toastr.options.timeOut = 10000;
+                        toastr.options.timeOut = 1000;
                         toastr.success("{{ Session::get('message') }}", "Success!");
 
                         break;
                     case 'warning':
-                        toastr.options.timeOut = 10000;
+                        toastr.options.timeOut = 1000;
                         toastr.warning("{{ Session::get('message') }}", "Warning!");
 
                         break;
                     case 'error':
-                        toastr.options.timeOut = 10000;
+                        toastr.options.timeOut = 1000;
                         toastr.error("{{ Session::get('message') }}", "Error!");
 
                         break;
