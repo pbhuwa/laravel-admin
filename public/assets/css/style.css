@@ -1397,7 +1397,7 @@ video {
     padding-right: 30px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background: #3061AF;
+    background: #1e293b;
     color: #F1F5FB
 }
 
@@ -1406,11 +1406,11 @@ video {
 }
 
 .crumbs ul li a:hover {
-    background: #3061AF;
+    background: #1e293b;
     color: #fff;
 }
 
 .crumbs ul li a:hover:after {
-    border-left-color: #3061AF;
+    border-left-color: #1e293b;
     color: #fff;
 }
