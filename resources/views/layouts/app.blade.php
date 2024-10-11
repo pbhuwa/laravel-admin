@@ -60,7 +60,7 @@
         <!-- end: Sidebar -->
 
         <!-- start: Main -->
-        <main class="w-full md:w-[calc(100%-256px)] md:ml-64 bg-gray-50 min-h-screen transition-all main">
+        <main class="w-full md:w-[calc(100%-192px)] md:ml-48 bg-gray-50 min-h-screen transition-all main">
             {{ $slot }}
         </main>
         <!-- end: Main -->
